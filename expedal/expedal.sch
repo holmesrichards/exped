@@ -552,17 +552,6 @@ Text Label 4325 2750 0    50   ~ 0
 S
 Text Notes 4000 2450 0    50   ~ 0
 CV IN
-$Comp
-L Connector_Generic:Conn_01x03 J4
-U 1 1 5EC6237D
-P 6725 2225
-F 0 "J4" H 6805 2267 50  0000 L CNN
-F 1 "Conn_01x03" H 6805 2176 50  0000 L CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x03_P2.54mm_Vertical" H 6725 2225 50  0001 C CNN
-F 3 "~" H 6725 2225 50  0001 C CNN
-	1    6725 2225
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6125 2125 6525 2125
 Wire Wire Line
@@ -686,12 +675,6 @@ F 3 "~" H 3625 6750 50  0001 C CNN
 	1    3625 6750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 6325 3425 6325
-Wire Wire Line
-	2800 6225 3425 6225
-Wire Wire Line
-	2800 6125 3425 6125
 Text Notes 2900 6000 0    50   ~ 0
 EXP PEDAL
 Text Label 3350 6325 0    50   ~ 0
@@ -703,24 +686,13 @@ T
 $Comp
 L Connector_Generic:Conn_01x03 J10
 U 1 1 5ECBC0CB
-P 3625 6225
-F 0 "J10" H 3705 6267 50  0000 L CNN
-F 1 "Conn_01x03" H 3705 6176 50  0000 L CNN
-F 2 "" H 3625 6225 50  0001 C CNN
-F 3 "~" H 3625 6225 50  0001 C CNN
-	1    3625 6225
+P 3650 6200
+F 0 "J10" H 3730 6242 50  0000 L CNN
+F 1 "Conn_01x03" H 3730 6151 50  0000 L CNN
+F 2 "" H 3650 6200 50  0001 C CNN
+F 3 "~" H 3650 6200 50  0001 C CNN
+	1    3650 6200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:AudioJack3 J7
-U 1 1 5EC970D2
-P 2600 6225
-F 0 "J7" H 2321 6158 50  0000 R CNN
-F 1 "AudioJack3" H 2321 6249 50  0000 R CNN
-F 2 "" H 2600 6225 50  0001 C CNN
-F 3 "~" H 2600 6225 50  0001 C CNN
-	1    2600 6225
-	1    0    0    1   
 $EndComp
 $Comp
 L Connector:AudioJack2 J8
@@ -784,4 +756,47 @@ F 3 "~" H 4100 2650 50  0001 C CNN
 	1    4100 2650
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5EC6237D
+P 6725 2225
+F 0 "J4" H 6805 2267 50  0000 L CNN
+F 1 "Conn_01x03" H 6805 2176 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x03_P2.54mm_Vertical" H 6725 2225 50  0001 C CNN
+F 3 "~" H 6725 2225 50  0001 C CNN
+	1    6725 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3_SwitchTR J?
+U 1 1 5EDD9F63
+P 2600 6300
+F 0 "J?" H 2321 6133 50  0000 R CNN
+F 1 "AudioJack3_SwitchTR" H 2321 6224 50  0000 R CNN
+F 2 "" H 2600 6300 50  0001 C CNN
+F 3 "~" H 2600 6300 50  0001 C CNN
+	1    2600 6300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2800 6100 2875 6100
+Wire Wire Line
+	2800 6300 3075 6300
+Wire Wire Line
+	3075 6300 3075 6200
+Wire Wire Line
+	3075 6200 3450 6200
+Wire Wire Line
+	2800 6400 3150 6400
+Wire Wire Line
+	3150 6400 3150 6300
+Wire Wire Line
+	3150 6300 3450 6300
+Wire Wire Line
+	2800 6200 2875 6200
+Wire Wire Line
+	2875 6200 2875 6100
+Connection ~ 2875 6100
+Wire Wire Line
+	2875 6100 3450 6100
 $EndSCHEMATC
