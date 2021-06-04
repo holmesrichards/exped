@@ -5,13 +5,14 @@ Designed for use with an M-Audio EX-P pedal but should be more generally usable 
 
 With no pedal plugged in, it behaves as if there were a pedal completely down, so range pot gives 0 to 10V voltage source with no CV input, or attenuated CV with CV input.
 
-Files here:
+Files:
 
-*  **expedal/**   KiCad project files
-*  **exped.diy**  Stripboard layout in diylc format
-*  **exped.png**  Image of stripboard layout
-*  **LICENSE**    Licensing info
-*  **README.md**  This file
-*  **m-audio-ex-p-1072865.png**  M-Audio EX-P schematic (source unknown)
+*  [expedal/](expedal/)    KiCad project files
+*  [exped.diy](exped.diy)  Stripboard layout in diylc format
+*  [m-audio-ex-p-1072865.png](m-audio-ex-p-1072865.png)  M-Audio EX-P schematic (source unknown)
 
-For stripboard layout of a dual version (with some different component choices to change maximum output and LED brightness) see https://lookmumnocomputer.discourse.group/t/prototyping-diy-expression-pedal-interface-for-kosmo/649/41?u=analogoutput .
+For stripboard layout of a dual version (with some different component choices to change maximum output and LED brightness) see [https://lookmumnocomputer.discourse.group/t/prototyping-diy-expression-pedal-interface-for-kosmo/649/41](https://lookmumnocomputer.discourse.group/t/prototyping-diy-expression-pedal-interface-for-kosmo/649/41).
+
+[![Expression pedal interface schematic](exped_sch.png  "Expression pedal interface schematic")](exped/exped.pdf)
+
+![Expression pedal interface stripboard layout](exped.png  "Expression pedal interface stripboard layout")
