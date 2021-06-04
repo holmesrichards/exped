@@ -13,6 +13,6 @@ Files:
 
 For stripboard layout of a dual version (with some different component choices to change maximum output and LED brightness) see [https://lookmumnocomputer.discourse.group/t/prototyping-diy-expression-pedal-interface-for-kosmo/649/41](https://lookmumnocomputer.discourse.group/t/prototyping-diy-expression-pedal-interface-for-kosmo/649/41).
 
-[![Expression pedal interface schematic](exped_sch.png  "Expression pedal interface schematic")](exped/exped.pdf)
+[![Expression pedal interface schematic](exped_sch.png  "Expression pedal interface schematic")](expedal/exped.pdf)
 
 ![Expression pedal interface stripboard layout](exped.png  "Expression pedal interface stripboard layout")
